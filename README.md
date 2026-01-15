@@ -1,2 +1,3 @@
-# devdocs
-Dev Docs
+# EmuDeck Developer Documentation
+
+Developer documentation for EmuDeck.
