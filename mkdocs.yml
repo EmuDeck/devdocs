@@ -1,6 +1,6 @@
 site_name: EmuDeck Developer Docs
 site_url: https://docs.emudeck.com
-repo_url: https://github.com/EmuDeck/EmuDeck
+repo_url: https://github.com/EmuDeck
 
 theme:
   name: material
@@ -23,15 +23,15 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Project Structure:
-    - configs/: configs.md
-    - core/: core.md
-    - tools/: tools.md
-    - functions/:
-      - helpers.py: helpers.md
-      - emus_scripts/: emus-scripts.md
-      - tools_scripts/: tools-scripts.md
-      - Other files: functions.md
+      - configs/: configs.md
+      - core/: core.md
+      - tools/: tools.md
+      - functions/:
+          - helpers.py: helpers.md
+          - emus_scripts/: emus-scripts.md
+          - tools_scripts/: tools-scripts.md
+          - Other files: functions.md
   - Root Files:
-    - api.py: api.md
-    - setup.py: setup.md
-    - versions.json: versions.md
+      - api.py: api.md
+      - setup.py: setup.md
+      - versions.json: versions.md
